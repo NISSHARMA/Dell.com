@@ -1,0 +1,30 @@
+.navbar3div {
+    height: 120px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.navbar3subdiv {
+    width: 160px;
+    height: 120px;
+    font-size: larger;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.navbar3subdiv img {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+
+h3 {
+    position: absolute;
+    bottom: 0;
+    padding-left: 50px;
+}
