@@ -1,0 +1,47 @@
+
+
+.navbar_div{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightcolumn{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.leftcolumn{
+    height: 80px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.nav_logo{
+    height: 75px;
+    margin-left: 30px;
+}
+.navinput{
+    width: 600px;
+    height: 35px;
+    margin-left: 10%;
+    border: 1px solid black;
+
+}
+.searchicon{
+    height: 25px;
+    position: absolute;
+    margin-left: 780px;
+}
+.signinbutton{
+    width: 250px;    
+    border-radius: 0%;
+    margin:auto;
+    
+    
+}
+.america{
+    line-height: 30px;
+    padding-left: 30px;
+}
