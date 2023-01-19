@@ -4,14 +4,17 @@ import Navbar1 from './Component/Navbar1';
 import Navbar2 from './Component/Navbar2';
 import Navbar3 from './Component/Navbar3';
 import LandingPage from './Pages/LandingPage';
+import Footer1 from './Component/Footer1';
 
 function App() {
   return (
     <div className="App">
-      {/*<Navbar1/>
+     <Navbar1/>
       <Navbar2/>
-      <Navbar3/>*/}
+      <Navbar3/>
       <LandingPage/>
+      <Footer1/>
+
     </div>
   );
 }

@@ -3,12 +3,13 @@
     height: 400px;
     margin: auto;
     display: flex;
+    margin-top: 20px;  
     
 }
 .landingpagediv1_left{
-    border: 1px solid red;
     width: 50%;
     height: 400px;
+   
 }
 .landingpagediv1_right{
     width: 50%;
@@ -16,4 +17,191 @@
 }
 .landingpagediv1_right{
     height: 100%;
+}
+.xpshead{
+    font-size: 20px;
+    margin-top: 80px;
+}
+.switchhead{
+    font-size: 40px;
+}
+.versatilehead{
+    font-size: 20px; 
+}
+.learn_more_button{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.shop_now_button{   
+    margin-top: 20px;
+}
+.landingpagediv2{
+    width: 90%;
+    margin: auto;
+}
+.landingpagediv2 h1{
+    font-size: 30px;
+}
+.landingpagediv3{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.landingpagediv3_subdiv{
+    height: 300px;
+    width: 32%;
+    margin: auto;
+}
+.getitfast{
+    font-size: 32px;
+}
+.getitfast_div{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.instock_div{
+    margin-top: 50px;
+    display: flex;
+    height: 100px;
+}
+.instock_div p{
+    font-size: 20px;
+}
+.instock_div img{
+    width: 40%;
+}
+.shop_Now_button{
+    font-size: 25px;
+    color: #0672CB;
+    margin-top: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;   
+}
+
+.inspiron{
+    font-size: 16px;
+}
+.visuals{
+    font-size: 32px;  
+}
+.seemore{
+    font-size: 20px; 
+}
+.compared{
+    font-size: 12px; 
+}
+.landingpagediv3_left{
+    width: 40%;
+    margin: auto;
+    line-height: 50px;
+}
+.landingpagediv3_left button{
+    margin-left: 20px;
+}
+.dell_support_div{
+    width: 90%;
+    height: 400px;
+    
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dell_support_left{
+    width: 45%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dell_support_right{
+    width: 45%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dellsupport_head{
+font-size: 40px;
+}
+.question_head{
+    font-size: 20px;
+}
+.card_img{
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.dell_support_right_div1{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.dell_support_right_head1{
+    font-size: 24px;
+    color: #0672CB;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.dell_support_right_head2{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.accessories_div{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accessories_div_left{
+    width: 50%;
+}
+.accessories_div_right{
+    width: 50%;
+    width: 40%;
+    margin: auto;
+    line-height: 50px;    
+}
+.landingpagelastdiv{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+   
+}
+.landingpagelast_left,.landingpagelast_right{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   margin-top: 20px;   
+
+}
+.landingpagelast_left p:nth-child(1),.landingpagelast_right p:nth-child(1){
+    font-size: 16px;
+}
+.landingpagelast_left p:nth-child(2),.landingpagelast_right p:nth-child(2){
+    font-size: 32px;
+}
+.landingpagelast_left p:nth-child(3),.landingpagelast_right p:nth-child(3){
+    font-size: 25px;
+}
+.landingpagelast_left p:nth-child(4),.landingpagelast_right p:nth-child(4){
+    font-size: 20px;
+    color:#0672CB ;
+    cursor: pointer;
+}
+.landingpagelast_img{
+    margin-top: 50px;
 }

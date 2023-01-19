@@ -5,7 +5,7 @@ function Navbar3() {
         <>
             <div className={styles.navbar3div}>
                 <div className={styles.navbar3subdiv}>
-                    <img width="80px" src="../desktop.png" alt="desktop" />
+                    <img width="70px" src="../desktop.png" alt="desktop" />
                     <h3 style={{marginTop:"20px"}}>Desktop</h3>
                 </div>
                 <div className={styles.navbar3subdiv}>
