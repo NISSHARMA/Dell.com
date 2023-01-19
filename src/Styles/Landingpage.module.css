@@ -1,0 +1,19 @@
+.landingpagediv1{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    
+}
+.landingpagediv1_left{
+    border: 1px solid red;
+    width: 50%;
+    height: 400px;
+}
+.landingpagediv1_right{
+    width: 50%;
+    height: 400px;
+}
+.landingpagediv1_right{
+    height: 100%;
+}
