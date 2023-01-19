@@ -1,0 +1,56 @@
+
+.footer1MainDiv{
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    line-height: 30px;
+}
+.footer1MainDiv_subdiv{
+    width: 20%;
+    margin: auto;
+    height: 150px;
+}
+.footer1MainDiv p{
+    font-size: 17px;
+    cursor: pointer;
+}
+.footer2MainDiv{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    line-height: 30px;
+}
+.footer2MainDiv_subdiv{
+    width: 20%;
+    margin: auto;
+    height: 300px;
+}
+.footer2MainDiv p{
+    font-size: 17px;
+    cursor: pointer;
+}
+.footerlast1_row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.footerlast1_row p{
+    margin-left: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.footerlast2_row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.footerlast2_row p{
+    margin-left: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

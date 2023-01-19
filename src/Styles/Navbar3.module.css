@@ -1,11 +1,11 @@
 .navbar3div {
     height: 120px;
-    width: 80%;
+    width: 90%;
     display: flex;
     margin: auto;
     justify-content: space-between;
     cursor: pointer;
-}
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
 
 .navbar3subdiv {
     width: 160px;
@@ -13,6 +13,8 @@
     font-size: larger;
     align-items: center;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar3subdiv img {
@@ -23,8 +25,4 @@
     margin-bottom: auto;
 }
 
-h3 {
-    position: absolute;
-    bottom: 0;
-    padding-left: 50px;
-}
+ 
