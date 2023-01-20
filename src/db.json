@@ -1,0 +1,243 @@
+data=[
+    name:"",
+    Processor:"",
+    OS:"",
+    Graphics:"",
+    Memory:"",
+    Storage:"",
+    Display:""
+    price:"",
+    img:""
+    {
+    name:"XPS 13 Plus Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i7-1260P",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"16 GB, LPDDR5",
+    Storage:"512 GB SSD",
+    Display:"13.4-in. touch display Full HD (1920X1200)"
+    price:"$1,649.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9320/media-gallery/xs9320nt-xnb-shot-5-1-sl.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    
+    },
+    {
+    name:"XPS 15 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i9-12900HK",
+    OS:"Windows 11 Pro (Dell Technologies recommends Windows 11 Pro for business)",
+    Graphics:"NVIDIAÂ® GeForce RTXâ„¢ 3050 Ti",
+    Memory:"32 GB, DDR5",
+    Storage:"1 TB SSD",
+    Display:"15.6-in. touch display 3.5K (3456X2160) OLED"
+    price:"$2,949.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9520/media-gallery/black/laptop-xps-9520-t-black-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 Plus Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i7-1280P",
+    OS:"Windows 11 Pro (Dell Technologies recommends Windows 11 Pro for business)",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"32 GB, LPDDR5",
+    Storage:"1 TB SSD",
+    Display:"13.4-in. touch display Ultra HD (3840X2400)"
+    price:"$1,949.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9320/media-gallery/xs9320nt-xnb-shot-5-1-gy.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 15 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i9-12900HK",
+    OS:"Windows 11 Pro (Dell Technologies recommends Windows 11 Pro for business)",
+    Graphics:"NVIDIAÂ® GeForce RTXâ„¢ 3050 Ti",
+    Memory:"16 GB, DDR5",
+    Storage:"512 GB SSD",
+    Display:"15.6-in. display Full HD (1920X1200)"
+    price:"$2,399.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9520/media-gallery/black/laptop-xps-9520-t-black-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i7-1250U",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"16 GB, LPDDR5",
+    Storage:"512 GB SSD",
+    Display:"13.4-in. display Full HD (1900X1200"
+    price:"$1,099.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i7-1250U",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"8 GB, LPDDR5",
+    Storage:"512 GB SSD",
+    Display:"13.4-in. display Full HD (1900X1200)"
+    price:"$999.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 15 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i7-12700H",
+    OS:"Windows 11 Home",
+    Graphics:"NVIDIAÂ® GeForce RTXâ„¢ 3050 Ti",
+    Memory:"16 GB, DDR5",
+    Storage:"1 TB SSD",
+    Display:"15.6-in. touch display Ultra HD (3840X2400)"
+    price:"Dell Price$2,199.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9520/media-gallery/black/laptop-xps-9520-t-black-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 17 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i9-12900HK",
+    OS:"Windows 11 Pro (Dell Technologies recommends Windows 11 Pro for business)",
+    Graphics:"NVIDIAÂ® GeForce RTXâ„¢ 3060",
+    Memory:"32 GB, DDR5",
+    Storage:"1 TB SSD",
+    Display:"17.0-in. display Full HD (1920X1200)"
+    price:"$2,599.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-17-9720/media-gallery/notebook-xps-17-9720-silver-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 Plus Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i7-1260P",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"32 GB, LPDDR5",
+    Storage:"2 TB SSD",
+    Display:"13.4-in. touch display 3.5K (3456X2160) OLED"
+    price:"$1,949.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9320/media-gallery/xs9320nt-xnb-shot-5-1-gy.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 Plus Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i7-1280P",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"32 GB, LPDDR5",
+    Storage:"1 TB SSD",
+    Display:"13.4-in. touch display Ultra HD (3840X2400)"
+    price:"$1,949.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9320/media-gallery/xs9320nt-xnb-shot-5-1-gy.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 2-in-1 Laptop",
+    Processor:"12th Generation IntelÂ® Coreâ„¢ i7-1250U",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"16 GB, LPDDR4x",
+    Storage:"1 TB SSD",
+    Display:"	13.0-in. touch display 3K (2880X1920)"
+    price:"$1,349.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315-2in1/media-gallery/blue/tablet-xps-13-9315-blue-gallery-8.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 17 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i9-12900HK",
+    OS:"Windows 11 Home",
+    Graphics:"NVIDIAÂ® GeForce RTXâ„¢ 3060",
+    Memory:"64 GB, DDR5",
+    Storage:"2 TB SSD",
+    Display:"17.0-in. display Ultra HD (3840X2400)"
+    price:"$3,099.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-17-9720/media-gallery/notebook-xps-17-9720-silver-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 Plus Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i5-1240P",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"16 GB, LPDDR5",
+    Storage:"512 GB SSD",
+    Display:"13.4-in. touch display Full HD (1920X1200)"
+    price:"Dell Price$1,299.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9320/media-gallery/xs9320nt-xnb-shot-5-1-sl.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 17 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i9-12900HK",
+    OS:"Windows 11 Home",
+    Graphics:"NVIDIAÂ® GeForce RTXâ„¢ 3060",
+    Memory:"32 GB, DDR5",
+    Storage:"1 TB SSD",
+    Display:"17.0-in. display Full HD (1920X1200)"
+    price:"$2,549.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-17-9720/media-gallery/notebook-xps-17-9720-silver-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 2-in-1 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i5-1230U",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"16 GB, LPDDR4x",
+    Storage:"512 GB SSD",
+    Display:"13.0-in. touch display 3K (2880X1920)"
+    price:"$1,349.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315-2in1/media-gallery/blue/tablet-xps-13-9315-blue-gallery-8.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 2-in-1 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i5-1230U",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"8 GB, LPDDR4x",
+    Storage:"512 GB SSD",
+    Display:"13.0-in. touch display 3K (2880X1920)"
+    price:"$1,199.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315-2in1/media-gallery/blue/tablet-xps-13-9315-blue-gallery-8.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 15 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i9-12900HK",
+    OS:"Windows 11 Home",
+    Graphics:"NVIDIAÂ® GeForce RTXâ„¢ 3050 Ti",
+    Memory:"64 GB, DDR5",
+    Storage:"2 TB SSD",
+    Display:"15.6-in. display Full HD (1920X1200)"
+    price:"$3,099.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9520/media-gallery/black/laptop-xps-9520-t-black-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 2-in-1 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i5-1230U",
+    OS:"Windows 11 Pro (Dell Technologies recommends Windows 11 Pro for business)",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"16 GB, LPDDR4x",
+    Storage:"512 GB SSD",
+    Display:"13.0-in. touch display 3K (2880X1920)"
+    price:"$1,409.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315-2in1/media-gallery/blue/tablet-xps-13-9315-blue-gallery-8.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i7-1250U",
+    OS:"Windows 11 Home",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"32 GB, LPDDR5",
+    Storage:"1 TB SSD",
+    Display:"13.4-in. display Full HD (1900X1200)"
+    price:"$1,299.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    name:"XPS 13 2-in-1 Laptop",
+    Processor:"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i5-1230U",
+    OS:"Windows 11 Pro (Dell Technologies recommends Windows 11 Pro for business)",
+    Graphics:"IntelÂ® IrisÂ® Xe Graphics",
+    Memory:"8 GB, LPDDR4x",
+    Storage:"512 GB SSD",
+    Display:"13.0-in. touch display 3K (2880X1920)"
+    price:"$1,259.00",
+    img:"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315-2in1/media-gallery/blue/tablet-xps-13-9315-blue-gallery-8.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    },
+    {
+    "name":"XPS 13 Laptop",
+    "Processor":"12áµ—Ê° Gen IntelÂ® Coreâ„¢ i5-1230U",
+    "OS":"Windows 11 Home",
+    "Graphics":"IntelÂ® IrisÂ® Xe Graphics",
+    "Memory":"16 GB, LPDDR5",
+    "Storage":"512 GB SSD",
+    "Display":"13.4-in. display Full HD (1900X1200)",
+    "price": 949.00,
+    "img":"https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9315/media-gallery/notebook-xps-9315-nt-blue-gallery-5.psd?qlt=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto&fmt=png-alpha&hei=500"
+    }
+    ]
