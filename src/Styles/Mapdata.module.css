@@ -1,0 +1,63 @@
+.mapdatadiv {
+    height: 350px;
+    border: 0.2px solid gray;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.mapdatadiv1 {
+    width: 32%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapdatadiv2 {
+    width: 38%;
+    height: 400px;
+}
+
+.mapdatadiv3 {
+    width: 24%;
+    height: 400px;
+}
+
+.mapdatadiv2_name {
+    color: #0076CB;
+    font-size: 20px;
+}
+.mapdatadiv2_ordercode{
+    color: #767676;
+    font-size: 14px;
+}
+.mapdatadiv2_specs{
+    font-size: 18px;
+    font-weight: bold;
+}
+.mapdatadiv2_specs span{
+    color: #0672CB;
+}
+.mapdatadiv2_processer,.mapdatadiv2_os,.mapdatadiv2_graphics,.mapdatadiv2_memory,.mapdatadiv2_storage,.mapdatadiv2_display{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.mapdatadiv3{
+    font-size: 16px;
+   
+}
+.mapdatadiv3 p:nth-child(1){
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+.mapdatadiv3 p{
+    margin-top: 15px;
+}
+.mapdatadiv3 span{
+    font-weight: bold;
+}
