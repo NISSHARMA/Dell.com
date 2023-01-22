@@ -29,6 +29,14 @@ function Allproducts() {
 
     }, [])
 
+    async function handledelete(id) {
+        let res = await fetch(`http://localhost:8000/data/${id}`, {
+    
+          method: 'DELETE'
+    
+        })
+        window.location.reload()
+      }
 
 
 
@@ -65,7 +73,7 @@ function Allproducts() {
                                         <Text pt='2' fontSize='sm'>
                                             {elem.Storage}
                                         </Text>
-                                        <Button colorScheme='red'>Delete</Button>
+                                        <Button colorScheme='red' onClick={() => handledelete(elem.id)}>Delete</Button>
                                     </Box>
 
                                 </Stack>

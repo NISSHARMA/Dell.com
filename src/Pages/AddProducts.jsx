@@ -6,7 +6,6 @@ import {
 } from '@chakra-ui/react'
 import { useState } from 'react'
 import { Link } from "react-router-dom"
-import styles from "../Styles/Admin.module.css"
 
 
 
@@ -31,7 +30,7 @@ function Addproduct() {
 
 
     async function postproduct() {
-        let res = await fetch(`http://localhost:3004/arrayOfProducts`, {
+        let res = await fetch(`http://localhost:8000/data`, {
             method: 'POST',
             body: JSON.stringify(addproduct),
             headers: {
