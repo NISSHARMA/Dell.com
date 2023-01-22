@@ -1,9 +1,10 @@
 .mapdatadiv {
     height: 350px;
-    border: 0.2px solid gray;
     display: flex;
     justify-content: space-between;
-
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
 }
 
@@ -60,4 +61,9 @@
 }
 .mapdatadiv3 span{
     font-weight: bold;
+}
+.addtocart{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
 }

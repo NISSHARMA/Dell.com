@@ -34,7 +34,7 @@
 
 .laptopdiv2 {
     width: 90%;
-    height: 1000px;
+    height: 2000px;
     margin: auto;
     margin-top: 20px;
     justify-content: space-between;
@@ -43,13 +43,14 @@
 
 .laptopdiv2_subdiv1 {
     width: 25%;
-    height: 1000px;
+    height: 2000px;
+    position: sticky;
 
 }
 
 .laptopdiv2_subdiv2 {
     width: 73%;
-    height: 1000px;
+    height: 2000px;
 }
 
 .laptopdiv2_subdiv1 p {
@@ -68,6 +69,7 @@
     border: 0.2px solid gray;
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 
 
 }

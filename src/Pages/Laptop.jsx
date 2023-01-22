@@ -2,7 +2,8 @@ import Navbar1 from "../Component/Navbar1"
 import Navbar2 from "../Component/Navbar2"
 import styles from "../Styles/Laptop.module.css"
 import Mapdata from "../Component/Mapdata"
-import { useState,useEffect } from "react"
+import { useState, useEffect } from "react"
+import Footer1 from "../Component/Footer1"
 import {
     Accordion,
     AccordionItem,
@@ -10,35 +11,40 @@ import {
     AccordionPanel,
     AccordionIcon,
     Box, Radio, RadioGroup,
-    Checkbox
+    Checkbox, Button
 } from '@chakra-ui/react'
 
 
 function LaptopPage() {
     const [value, setValue] = useState('1')
+    const [page, setPage] = useState(1)
 
-    
 
-        const [product, SetProduct] = useState([])
-    
-        async function getData() {
-            return fetch(`http://localhost:8000/data`)
-        }
-    
-        async function fetchAndUpdateData() {
-            const response = await getData()
-            const res = response.json()
-                .then(function (res) {
-                    SetProduct(res)
-                })
-        }
-        // console.log(allproduct)
-    
-        useEffect((data) => {
-            fetchAndUpdateData()
-    
-        },[])
-        console.log(product)
+
+    const [product, SetProduct] = useState([])
+
+    async function getData() {
+        return fetch(`http://localhost:8000/data?_page=${page}&_limit=5`)
+    }
+
+    async function fetchAndUpdateData() {
+        const response = await getData()
+        const res = response.json()
+            .then(function (res) {
+                SetProduct(res)
+            })
+    }
+    // console.log(allproduct)
+
+    useEffect((data) => {
+        fetchAndUpdateData()
+
+    }, [page])
+    console.log(product)
+
+    function handlepagechange(val) {
+        setPage(page + val)
+    }
 
 
 
@@ -197,25 +203,43 @@ function LaptopPage() {
 
                 <div className={styles.laptopdiv2_subdiv2}>
                     {
-                        product.map((elem)=>(
+                        product.map((elem) => (
                             <Mapdata
-                             name={elem.name} 
-                             Display={elem.Display}
-                             Graphics={elem.Graphics}
-                             Memory={elem.Memory}
-                             OS={elem.OS}
-                             Processor={elem.Processor}
-                             Storage={elem.Storage}
-                             img={elem.img}
-                             
+                                name={elem.name}
+                                Display={elem.Display}
+                                Graphics={elem.Graphics}
+                                Memory={elem.Memory}
+                                OS={elem.OS}
+                                Processor={elem.Processor}
+                                Storage={elem.Storage}
+                                img={elem.img}
+                                price={elem.price}
+                                id={elem.id}
+
                             />
                         ))
                     }
-                    
+                    <div style={{ display: "flex", justifyContent: "center", marginTop: "40px", marginBottom: "1000px" }}>
+                        <Button colorScheme='teal' size='md' variant='outline' onClick={() => handlepagechange(-1)} isDisabled={page == 1}>
+                            Prev
+                        </Button>
+                        <Button colorScheme='teal' size='md' variant='outline' isDisabled="true">
+                            {page}
+                        </Button>
+                        <Button colorScheme='teal' size='md' variant='outline' onClick={() => handlepagechange(1)} isDisabled={page == 5}>
+                            Next
+                        </Button>
+                    </div>
+
                 </div>
+
+            </div>
+            <div >
+                <Footer1 />
             </div>
 
         </>
+
     )
 }
 

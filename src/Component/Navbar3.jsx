@@ -1,4 +1,6 @@
 import styles from "../Styles/Navbar3.module.css"
+import { Link } from "react-router-dom"
+
 
 function Navbar3() {
     return (
@@ -8,12 +10,14 @@ function Navbar3() {
                     <img width="70px" src="../desktop.png" alt="desktop" />
                     <h3 style={{marginTop:"20px"}}>Desktop</h3>
                 </div>
+                <Link to="/laptop">
                 <div className={styles.navbar3subdiv}>
                     
                     <img width="90px" src="../laptop.png" alt="desktop" />                 
                     
                     <h3>Laptops</h3>
                 </div>
+                </Link>
                 <div className={styles.navbar3subdiv}>
                     <img width="70px" src="../alien.png" alt="desktop" />
                     <h3>Alienware</h3>
