@@ -4,7 +4,7 @@ import { Icon, createIcon } from '@chakra-ui/icons'
 import Navbar1 from "../Component/Navbar1"
 import Navbar2 from "../Component/Navbar2"
 import Navbar3 from "../Component/Navbar3"
-
+import Footer1 from "../Component/Footer1"
 
 
 
@@ -216,7 +216,7 @@ function LandingPage() {
                 </div>
 
             </div>
-
+                <Footer1/>
 
 
         </>

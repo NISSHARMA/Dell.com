@@ -32,7 +32,7 @@ function Cart() {
             <div style={{display:"flex",justifyContent:"space-around",alignItems:"center"}}>
 
 
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)", width: "60%", marginTop: "20px", border: "1px solid red" }}>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(2,1fr)", width: "60%", marginTop: "20px" }}>
                     {
 
                         data.map((elem) => (
