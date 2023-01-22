@@ -1,11 +1,19 @@
 import styles from "../Styles/Landingpage.module.css"
-import { Button, ButtonGroup, Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Text } from '@chakra-ui/react'
+import { Button, } from '@chakra-ui/react'
 import { Icon, createIcon } from '@chakra-ui/icons'
+import Navbar1 from "../Component/Navbar1"
+import Navbar2 from "../Component/Navbar2"
+import Navbar3 from "../Component/Navbar3"
+
+
 
 
 function LandingPage() {
     return (
         <>
+            <Navbar1 />
+            <Navbar2 />
+            <Navbar3 />
             <div className={styles.landingpagediv1}>
                 <div className={styles.landingpagediv1_left}>
                     <p className={styles.xpshead}>XPS 13 2-IN-1</p>
@@ -193,8 +201,8 @@ function LandingPage() {
                     <p>The Modern Office</p>
                     <p>Power productivity from home with savings on PCs .</p>
                     <p>PC Deals</p>
-                    <div className={styles.landingpagelast_img}>                    
-                    <img width="80%" src="https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/en/2-ups/from-home-cons-dell-xps-9520t-uhp-2304-12-us-homepage-2up-module-rf-800x400.png?fmt=pjpg&pscan=auto&scl=1&wid=800&hei=400&qlt=100,0&resMode=sharp2&size=800,400&op_usm=1.75,0.3,2,0" alt="" />
+                    <div className={styles.landingpagelast_img}>
+                        <img width="80%" src="https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/en/2-ups/from-home-cons-dell-xps-9520t-uhp-2304-12-us-homepage-2up-module-rf-800x400.png?fmt=pjpg&pscan=auto&scl=1&wid=800&hei=400&qlt=100,0&resMode=sharp2&size=800,400&op_usm=1.75,0.3,2,0" alt="" />
                     </div>
                 </div>
                 <div className={styles.landingpagelast_right}>
@@ -202,9 +210,9 @@ function LandingPage() {
                     <p>Office Not Required</p>
                     <p>Keep business running smoothly anywhere with savings on monitors.</p>
                     <p>Monitor Deals</p>
-                    <div className={styles.landingpagelast_img}> 
-                    <img width="80%" src="https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/en/2-ups/from-home-cons-dell-u2722de-uhp-2304-12-us-homepage-2up-module-lf-800x400.png?fmt=pjpg&pscan=auto&scl=1&wid=800&hei=400&qlt=100,0&resMode=sharp2&size=800,400&op_usm=1.75,0.3,2,0" alt="" />
-                    </div> 
+                    <div className={styles.landingpagelast_img}>
+                        <img width="80%" src="https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/en/2-ups/from-home-cons-dell-u2722de-uhp-2304-12-us-homepage-2up-module-lf-800x400.png?fmt=pjpg&pscan=auto&scl=1&wid=800&hei=400&qlt=100,0&resMode=sharp2&size=800,400&op_usm=1.75,0.3,2,0" alt="" />
+                    </div>
                 </div>
 
             </div>

@@ -1,24 +1,25 @@
 import styles from "../Styles/Navbar2.module.css"
 import { ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons"
+import { Link } from "react-router-dom"
 
 
 function Navbar2() {
 
-   /* function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }*/
+    /* function myFunction() {
+         var x = document.getElementById("myTopnav");
+         if (x.className === "topnav") {
+             x.className += " responsive";
+         } else {
+             x.className = "topnav";
+         }
+     }*/
 
 
 
     return (
         <>
 
-          
+
             <div className={styles.navbar2div}>
                 <div className={styles.topnav} id="myTopnav">
 
@@ -45,7 +46,9 @@ function Navbar2() {
                             {<ChevronDownIcon />}
                         </button>
                         <div className={styles.dropdowncontent}>
-                            <a href="#">Laptops</a>
+                            <Link to="/laptop">
+                                <a href="#">Laptops</a>
+                            </Link>
                             <a href="">Desktops & All-in-ones</a>
                             <a href="">Gaming</a>
                             <a href="">Workstations</a>
@@ -164,7 +167,7 @@ function Navbar2() {
                             <a href="#">For Personal Financing</a>
                             <a href="">For Business Financing</a>
                             <a href="">Pay Buills & Manage Account</a>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -184,7 +187,7 @@ function Navbar2() {
                             <a href="#">Dell Technologies Capital</a>
                             <a href="#">Carrers</a>
                             <a href="#">Perspectives</a>
-                            <a href="#">Capital</a>                            
+                            <a href="#">Capital</a>
                         </div>
                     </div>
                 </div>
