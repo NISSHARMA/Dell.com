@@ -24,7 +24,7 @@ function CartMap({ price, img, OS, Memory, Processor, name, RemoveItem }) {
                             OS: {OS}
                         </Text>*/}
                         <Text color='blue.600' fontSize='2xl'>
-                            {price}
+                           $ {price}
                         </Text>
                     </Stack>
                 </CardBody>

@@ -4,8 +4,8 @@ import Navbar1 from "../Component/Navbar1";
 import Navbar2 from "../Component/Navbar2";
 import styles from "../Styles/Mapdata.module.css"
 import Footer1 from "../Component/Footer1"
-import { Button, ButtonGroup,Text,totalprice,useColorModeValue } from '@chakra-ui/react'
-import {Link} from "react-router-dom"
+import { Button, ButtonGroup, Text, totalprice, useColorModeValue } from '@chakra-ui/react'
+import { Link } from "react-router-dom"
 
 
 
@@ -73,8 +73,8 @@ function SingleProductPage() {
                 </div>
             </div>
 
+            <Footer1 />
 
-           
         </>
     )
 }

@@ -5,6 +5,9 @@ import Signin from "../Pages/Signin";
 import SingleProductPage from "../Pages/SingleProductPage";
 import Cart from "../Pages/Cart";
 import Checkout from "../Pages/Checkout";
+import Admin from "../Pages/Admin";
+import Addproduct from  "../Pages/AddProducts"
+import Allproducts from "../Pages/Allproducts"
 
 
 
@@ -21,6 +24,10 @@ function AllRoutes() {
       <Route path="/laptop/:id" element={<SingleProductPage />}/>
       <Route path="/cart" element={<Cart/>}/>
       <Route path="/cart/checkout" element={<Checkout/>}/>
+
+      <Route path="/admin" element={<Admin/>}/>
+      <Route path="/admin/addproduct" element={<Addproduct/>}/>
+      <Route path="/admin/allproduct" element={<Allproducts/>}/>
      
     </Routes>
   </div>;
