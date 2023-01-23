@@ -8,6 +8,7 @@ import Checkout from "../Pages/Checkout";
 import Admin from "../Pages/Admin";
 import Addproduct from  "../Pages/AddProducts"
 import Allproducts from "../Pages/Allproducts"
+import SignUp from "../Pages/Signup";
 
 
 
@@ -28,7 +29,7 @@ function AllRoutes() {
       <Route path="/admin" element={<Admin/>}/>
       <Route path="/admin/addproduct" element={<Addproduct/>}/>
       <Route path="/admin/allproduct" element={<Allproducts/>}/>
-     
+      <Route path="/Signup" element={<SignUp/>}/>     
     </Routes>
   </div>;
 }
